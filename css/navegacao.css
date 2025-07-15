@@ -1,0 +1,11 @@
+.navegacao {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.navegacao button {
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+}
