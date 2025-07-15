@@ -36,7 +36,7 @@ Este é um projeto front-end simples de uma **agenda digital** onde o usuário p
     ├── FormatarDataParaChave.js
     ├── index.js
     └── MesesESemanas.js
-
+```
 ---
 
 ## 🧠 Tecnologias utilizadas
