@@ -22,10 +22,20 @@ Este é um projeto front-end simples de uma **agenda digital** onde o usuário p
 
 ## 📁 Estrutura de arquivos
 
+```text
 📁 agenda/
 ├── index.html
-├── css
-└── js
+├── css/
+│   └── agenda.css
+│   └── cabecalho.css
+│   └── navegacao.css
+└── js/
+    ├── AtualizarCabecalho.js
+    ├── CriarAgenda.js
+    ├── DataAtual.js
+    ├── FormatarDataParaChave.js
+    ├── index.js
+    └── MesesESemanas.js
 
 ---
 
