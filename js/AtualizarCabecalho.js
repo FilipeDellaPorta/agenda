@@ -1,10 +1,10 @@
 import { diasSemana, meses } from './MesesESemanas.js';
 
 // Atualiza o cabeçalho com base na data
-export function atualizarCabecalho(date) {
-  const dia = date.getDate();
-  const mesIndex = date.getMonth();
-  const diaSemanaIndex = date.getDay();
+export function atualizarCabecalho(dataAtual) {
+  const dia = dataAtual.getDate();
+  const mesIndex = dataAtual.getMonth();
+  const diaSemanaIndex = dataAtual.getDay();
 
   document.querySelector('.dia-central').textContent = dia;
   document.querySelector(

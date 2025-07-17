@@ -1,5 +1,5 @@
 import { atualizarCabecalho } from './AtualizarCabecalho.js';
-import { criarAgendaParaData } from './CriarAgenda.js';
+import { criarAgenda } from './CriarAgenda.js';
 
 // Navegação
 export function btnAnterior(dataAtual) {
@@ -7,7 +7,7 @@ export function btnAnterior(dataAtual) {
   btnAnterior.addEventListener('click', () => {
     dataAtual.setDate(dataAtual.getDate() - 1);
     atualizarCabecalho(dataAtual);
-    criarAgendaParaData(dataAtual);
+    criarAgenda(dataAtual);
   });
 }
 
@@ -16,6 +16,6 @@ export function btnProximo(dataAtual) {
   btnProximo.addEventListener('click', () => {
     dataAtual.setDate(dataAtual.getDate() + 1);
     atualizarCabecalho(dataAtual);
-    criarAgendaParaData(dataAtual);
+    criarAgenda(dataAtual);
   });
 }
