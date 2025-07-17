@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/acoes-json.css">
     <link rel="stylesheet" href="./css/navegacao.css">
     <link rel="stylesheet" href="./css/cabecalho.css">
     <link rel="stylesheet" href="./css/agenda.css">
@@ -11,6 +12,7 @@
 </head>
 
 <body>
+
     <div class="navegacao">
         <button id="anterior">← Dia anterior</button>
         <button id="proximo">Dia seguinte →</button>
@@ -32,6 +34,13 @@
 
     <div id="agenda-container">
     </div>
+
+    <div class="acoes-json">
+        <input type="file" id="inputUpload" accept=".json" hidden />
+        <button id="btnUpload">Carregar agenda JSON</button>
+        <button id="btnDownload">Baixar agenda JSON</button>
+    </div>
+
     <script src="./js/index.js" type="module"></script>
 </body>
 
