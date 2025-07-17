@@ -1,9 +1,9 @@
-import { formatarDataParaChave } from './FormatarDataParaChave.js';
-import { pulandoLinha } from './PulandoLinha.js';
+import { formatarDataParaChave } from '../utils/FormatarDataParaChave.js';
+import { pulandoLinha } from '../handlers/PulandoLinha.js';
 import {
   pegandoDaLocalStorage,
   salvandoNaLocalStorage,
-} from './LocalStorage.js';
+} from '../services/LocalStorage.js';
 
 const container = document.getElementById('agenda-container');
 

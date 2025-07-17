@@ -1,5 +1,5 @@
-import { atualizarCabecalho } from './AtualizarCabecalho.js';
-import { criarAgenda } from './CriarAgenda.js';
+import { atualizarCabecalho } from '../dom/AtualizarCabecalho.js';
+import { criarAgenda } from '../dom/CriarAgenda.js';
 
 // Navegação
 export function btnAnterior(dataAtual) {

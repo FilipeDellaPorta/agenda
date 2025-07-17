@@ -1,4 +1,4 @@
-import { diasSemana, meses } from './MesesESemanas.js';
+import { diasSemana, meses } from '../utils/MesesESemanas.js';
 
 // Atualiza o cabeçalho com base na data
 export function atualizarCabecalho(dataAtual) {

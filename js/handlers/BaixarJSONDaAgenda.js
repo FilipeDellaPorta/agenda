@@ -1,4 +1,4 @@
-import { montarJSONDaAgenda } from './MontarJSONDaAgenda.js';
+import { montarJSONDaAgenda } from '../services/MontarJSONDaAgenda.js';
 
 export function baixarJSONDaAgenda() {
   const btnDownload = document.getElementById('btnDownload');
