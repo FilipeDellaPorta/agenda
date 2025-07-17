@@ -5,12 +5,7 @@ import { btnAnterior, btnProximo } from './Navegacao.js';
 let dataAtual = new Date();
 
 // Inicializar
-carregarAgenda();
+atualizarCabecalho(dataAtual);
+criarAgendaParaData(dataAtual);
 btnAnterior(dataAtual);
 btnProximo(dataAtual);
-
-// Carrega a agenda de hoje inicialmente
-export function carregarAgenda() {
-  atualizarCabecalho(dataAtual);
-  criarAgendaParaData(dataAtual);
-}
